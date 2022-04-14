@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Andreea Stejerean Make-Up</title>
+    <link rel="shorcut icon" href="imagini/favicon.ico"  type="image/png" /> <!--Icon-ul de la tab -->
+	<link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/bootstrap.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+     <link href="script/stylelog.css" rel="stylesheet">
+
+
+
+</head>
+
+
+<body oncontextmenu="return false">
+<div class="body"></div>
+		
+		<div class="header">
+			
+		</div>
+		<br>
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Username" name="userid"><br>
+				<input type="password" placeholder="Parolă" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+</form>
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "Andreea" && form.pswrd.value == "Makeup" ) 
+  {
+    window.open('pagini/index.html','_self')
+  }
+ else
+ {
+   alert("Username sau parola gresita")
+  }
+}
+</script>
+</body>
+</html>
